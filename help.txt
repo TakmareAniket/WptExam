@@ -1,0 +1,52 @@
+1.create folder(210940520013)
+2.react file and js folder
+3.create react project= npx create-react-app name
+4.js folder - vs terminal - npm init
+5. js folder = src folder = user program(const mysql = require("mysql");
+const Promise = require("bluebird");
+Promise.promisifyAll(require("mysql/lib/Connection").prototype);) + main program
+6. install mysql , install bluebird, install nodemon ,install axios , install cors, install express
+7. in js folder in package.jason add this command to Scripts="start": "nodemon src/main.js",
+8. in main import predefine liberies
+	:-const express = require("express");
+	:-const app = express();
+	:-app.use(express.json());
+	:-const cors = require("cors");
+	:-app.use(cors());
+**************************************************************************************************************************8
+Database
+8.create databse as specified , use databse
+9.create table as specified coloumns
+10.ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'cdac'; - if required
+*****************************************************************************************************************
+in react open terminal npm start - also npm install axios
+11.react file - npm install react-bootstrap bootstrap@5.1.3
+12. in index.js - import 'bootstrap/dist/css/bootstrap.min.css';
+13.write program in App.js -
+             1.import axios from "axios";
+             2.import { useEffect, useState } from "react";
+*********************************************************************************************************************
+
+14.write program in main.js
+15.write program in user.js - node src/user.js = to check connectivity
+npm start.
+*************************************************************************************
+16. In react program go to terminal and npm start
+17. put enterys in browser
+18. check in database
+
+
+
+
+
+
+
+
+
+app.js- export defalut finction App
+function MyComponent-const[username, setusername] = usestate("");
+-const handlechanng=(e)=>{setusername(e.target.value);};
+-valiation
+
+
+  
